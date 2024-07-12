@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="//scentsnstories.pk/cdn/shop/files/Favicon_55898b4a-6b76-4016-94ce-d7ea503675ea_32x32.png?v=1691871459" type="image/png">
+    <link rel="stylesheet" href="/WEBSITE_INDEX.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Le&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Maven+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Scents N Stories - Best Impression of Designer Fragrances in Pakistan</title>
+</head>
+
+<body>
+   <!--structure for fixed buttons-->
+   <!--code of popup1-->
+    <div class="gift" style="cursor: pointer; z-index: 102;">
+     <p id="Cross">  <i class="ri-gift-line" onclick="OpenPopup()" id="end" style="color: #000;"></i></p> 
+      <p id="Close" class="cross" onclick="ClosePopup()"> <i class="ri-arrow-drop-down-line"  id="xyz" onclick="closePopup()"></i></p> 
+        <div class="number"><p>5</p></div>
+    </div>
+    <div id="Overlay" class="Overlay" onclick="ClosePopup()">
+        <div class="popup1">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <div class="flex" style="display: flex;"  >
+            <img src="/pop-up img1.jpg" alt="">
+            <h2 style="margin-top: 10px;">Scents N Stories</h2>
+            <img src="/pop-up img2.jpg" alt="" style="height: 10px; margin-left: 10px; margin-top: 20px;">
+            <img src="/pop-up img3.jpg" alt=""style="margin-left: 90px; position: relative; left: 100px;">
+        </div>
+           
+            <div style="background-color: rgb(227, 248, 255); height: 450px; width: 500px;" >
+                <div id="Message"  ></div>
+                <form action="" id="Messageform">
+                    <div id="time"></div>
+                    <div id="reply"></div>
+           <input type="text"  id="inputMessage" placeholder="Type Your Message" style="border: 2px solid rgb(30, 126, 158); width: 400px; margin-top: 380px; height: 50px;  box-shadow: 0 0 10px rgba(0, 0, 255, 0.3);">
+        <button style="background-color:rgb(227, 248, 255) ; border: none;" id="submit"><span class="material-symbols-outlined" style="color: #C21010; font-size: 35px; font-weight: bold; margin-left: 20px; margin-top: 30px; position: relative; top: 10px; cursor: pointer;" >   
+            send
+            </span>
+            </button>
+        </form>
+           </div>
+           <img src="/pop-up img4.jpg" alt="" style=" width: 500px; height: 30px;">
+        </div>
+    </div>
+    <!--code for second popup-->
+    <div class="scentBot" style="cursor: pointer;">
+    <button onclick="openPopup()" style="cursor: pointer;">
+        <p id="cross" style="position: relative; top: 10px;"><i class="ri-send-plane-fill" ></i>
+            Scent Bot</p>
+            <p id="close" class="cross" onclick="closePopup()"><i class="ri-close-fill"></i></P>
+    </button>
+</div>
+<div id="Overlay." class="Overlay" onclick="closePopup()">
+    <div class="popup2">
+        <span class="close-btn" onclick="ClosePopup()">&times;</span>
+        <h2>Get these awesome free gifts</h2>
+        <div class="image" style="overflow-y: scroll; height: 400px; width: 500px;">
+        <img src="/gift1.jpg" alt="">
+        <img src="/gift2.jpg" alt="">
+        <img src="/gift3.jpg" alt="">
+        <img src="/gift4.jpg" alt="">
+        <img src="/gift5.jpg" alt="">
+    </div>
+    </div>
+</div>
+
+  
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+
+        <section class="home">
+        <div class="home-text">
+            <div class="head">
+              <p class="animated-text">
+                <span> Pakistan's #1 Frag E-Store | Surprises in all orders!</span>
+                <span> Free Shipping on Orders Above Rs 3000</span>
+              </p> 
+            </div>
+        </div>
+        </section>
+
+<div class="hr"></div>
+
+    <div class="about">
+
+        <div class="search-container">
+            <label for="search" class="search-label">
+                <input type="text" id="search" placeholder="Search">
+                <span class="search-icon"><i class="ri-search-line" id="icon"></i></span>
+            </label>
+        </div>
+                
+        <div class="logo">
+            <a href="/website_index .html"> <img src="screenshot.jpg" alt=""></a> 
+          </div>
+  
+          <div class="side-menu" id="sideMenu">
+              <div class="account"><a href="/Account.html">
+                  <i class="ri-user-3-line"></i></a>
+                  <p id="account">A C C O U N T</p>
+              </div>
+              <div class="cart" id="cart-container">
+                  <div id="original-cart">
+                      <i class="ri-shopping-cart-line"></i>
+                  <p>C A R T</p>
+                  </div>
+                  <div id="new-cart" class="hidden">
+                      <div id="close-cart-icon">
+                         <p>C L O S E </p>
+                         <p class="cross"> &times;</p>
+                      </div>
+                          <div id="cart-dropdown"><p>Your cart is currently empty.</p></div>
+                  </div>
+              </div>
+          </div>
+  
+      </div>
+  
+  <div class="br"></div>
+  
+      <nav>
+          <div class="nav-menu">
+              <a href="/shop.html" class="shop">S h o p </a><div class="dropdown-icon" style="position: relative; right: 30px;">&#9660;</div>
+                  <a href="Weakly Deals.html" class="menu">W E E K L Y D E A L S</a>
+                  <a href="less than 1500.html" class="menu">L E S S   T H A N 1500</a>
+                  <a href="Bundle.html" class="menu">B U N D L E S</a>
+                  <a href="attar.html" class="menu">A T T A R S</a>
+                  <a href="/Blog1.html" class="menu">B L O G S</a>
+                  <div class="dropdown" >
+                      <a href="contact us.html">C O N T A C T </a> <div class="i" style="cursor: pointer; position: relative; right: 20px;">&#9660;</div>
+                      <div class="dropdown-content" id="contactsDropdown">
+                          <a href="/contact us.html">Contact Us</a>
+  <a href="/Our Outlets.html">Our Outlets</a>
+  <a href="/FAQs.html">FAQs</a>
+  <a href="https://web.facebook.com/groups/233403457857025?_rdc=1&_rdr">Join our Facebook Group</a>
+  <a href="/track your order.html">Track Your Order</a>
+                              <!-- Dropdown content will be dynamically added here using JavaScript -->
+                      </div>
+                  </div>
+              
+          </div>
+      </nav>
+   <div class="content shop-content">
+       <div class=" column column1">
+         <div class="group group-1">
+           <a href="https://scentsnstories.pk/pages/contact-us"><h3>Gender</h3></a> 
+           <a href="#">Men</a>
+           <a href="#">Women</a>
+        </div>
+        <div class="group group-2">
+            <a href="#"><h3>Range</h3></a> 
+            <a href="#">Explorer</a>
+            <a href="#">Executive</a>
+            <a href="#">Elite</a>
+         </div>
+         <div class="group group-3">
+            <a href="#"><h3>Weekly Deals</h3></a> 
+            <a href="#">Inferno</a>
+            <a href="#">Near You</a>
+            <a href="#">Heavenly Vibes</a>
+            <a href="#">Beyond Layers</a>
+            <a href="#">Elegant</a>
+         </div>
+       </div>
+         <div class="column column2">
+            <div class="group group-4">
+                <a href="#"><h3>Perfume Wax</h3></a> 
+                <a href="#">Catch 22 Perfume Wax</a>
+                <a href="#">Merry Me Perfume Wax</a>
+                <a href="#">Saiful Malook Perfume Wax</a>
+                <a href="#">Heavenly Vibes Perfume Wax</a>
+                <a href="#">Oud War Perfume Wax</a>
+                <a href="#">Velvet Smooth Perfume Wax</a>
+             </div>
+             <div class="group group-5">
+                <a href="#"><h3>Body Mist</h3></a> 
+                <a href="#">Living Floral Body Mist</a>
+                <a href="#">Lost Light Body Mist</a>
+                <a href="#">Heavenly Vibes Body Mist</a>
+             </div>
+             <div class="group group-6">
+                <a href="#"><h3>Best Sellers</h3></a> 
+                <a href="#">Men</a>
+                <a href="#">New Arrival</a>
+                <a href="#">Women</a>
+             </div>
+         </div>
+         <div class="column column3">
+            <div class="group group-7">
+                <a href="#"><h3>Genre</h3></a> 
+                <a href="#">Eastern</a>
+                <a href="#">Western</a>
+             </div>
+             <div class="group group-8">
+                <a href="#"><h3>Type</h3></a> 
+                <a href="#">Citrus</a>
+                <a href="#">Fruity</a>
+                <a href="#">Floral</a>
+                <a href="#">Woody</a>
+                <a href="#">Oriental</a>
+             </div>
+             <div class="group group-9">
+                <a href="#"><h3>Sample Test</h3></a> 
+                <a href="#">5 Samples of Your Choice</a>
+                <a href="#">Mr. Ayaz Samoos's Choice</a>
+                <a href="#">Mr & Mrs Faizan Sheikh's Choice</a>
+                <a href="#">Top 5 Samples</a>
+                <a href="#">Top Rated New Arrival Samples</a>
+             </div>
+         </div>
+         <div class="column column4">
+            <div class="group group-10">
+                <a href="#"><h3>Scented Candles</h3></a> 
+                <a href="#">Wild Flower scented Candle</a>
+                <a href="#">Coffee scented Candle</a>
+                <a href="#">Pink Vanilla & Chiffron</a>
+                <a href="#">White Peach scented Candle</a>
+                <a href="#">Amber & Oud scented Candle</a>
+                <a href="#">Sugar & Velvet scented Candle</a>
+             </div>
+             <div class="group group-11">
+                <a href="#"><h3>Premium Fragrances</h3></a> 
+                <a href="#">Catch 22 Gold Edition - For Men</a>
+                <a href="#">Farat - For Men</a>
+                <a href="#">Qarar - For Men</a>
+                <a href="#">Zarf - Unisex</a>
+                <a href="#">Rabt - For Men</a>
+             </div>
+         </div>
+         <div class="column column5">
+            <a href="https://scentsnstories.pk/collections/new-arrival/products/uraan">    
+                <div class="cards">
+                <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/qguraan.png?v=1706356763&width=900" alt=""></div>
+                <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+                    <img src="save.webp" alt="">
+                <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+                <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+                </div></a>
+                    <div class="info">
+                        <div class="name">Uraan</div>
+                        <div class="desc">Ambery Vanilla Boost</div>
+                        <div class="price">Rs.2,670</div>
+                    </div>
+                </div>
+         </div>
+
+
+
+    </div>
+
+
+
+</div>
+</header>
+
+    <!-- ----------------------- -->
+
+<div class="body-container">
+    <div class="body-img"><img src="https://scentsnstories.pk/cdn/shop/files/Web_banner_new_curtain.jpg?v=1700645931&width=1600" alt="">
+</div>
+<main>
+   
+        <!-- portion1 -->
+<div class="main">
+    <h1>WEEKLY DEALS</h1>
+    <div class="card-container">
+        
+    <a href="https://scentsnstories.pk/collections/week-2/products/inferno">       
+    <div class="cards">
+        <img src="https://scentsnstories.pk/cdn/shop/files/inferno_a9319d46-6f36-4a14-8e19-f1b95fdfde92.png?v=1703228667" alt="">
+        <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+            <img src="save.webp" alt="">
+        <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+        <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+    </div></a>
+    <div class="button">SALE</div> 
+    <div class="info">
+        <div class="name">Inferno</div>
+        <div class="desc">Our Best Oud Fragrance</div>
+        <div class="price">Rs.1,140</div>
+        <div class="del"><del>Rs.1,200</del></div>
+        <div class="reviews">
+            <div class="stars">
+<i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+            </div>
+            <p>57 reviews</p> 
+        </div>
+    </div>
+    </div>
+
+    <a href="https://scentsnstories.pk/collections/week-2/products/near-you">
+    <div class="cards">
+        <img src="https://scentsnstories.pk/cdn/shop/files/nearyou_eb2f22aa-85b5-4af4-8e0b-1619787bd92e_1024x1024.png?v=1703229534" alt="">
+        <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+            <img src="save.webp" alt="">
+        <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+        <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+    </div></a>
+    <div class="button">SALE</div>
+    <div class="info">
+        <div class="name">Near You</div>
+        <div class="desc">Top Choice for Gifting</div>
+        <div class="price">Rs.1,400</div>
+        <div class="del"><del>Rs.1,480</del></div>
+        <div class="reviews">
+            <div class="stars">
+<i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+            </div>
+        <p>29 reviews</p> 
+        </div>
+    </div>
+    </div>
+
+    <a href="https://scentsnstories.pk/collections/week-2/products/heavenly-vibes">
+    <div class="cards">
+        <img src="https://scentsnstories.pk/cdn/shop/files/heavenlyvibes_77a46fbe-c782-486b-86c2-5e5c53e70631.png?v=1703228518" alt="">
+        <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+            <img src="save.webp" alt="">
+        <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+        <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+        </div></a>
+    <div class="button">SALE</div>
+    <div class="info">
+        <div class="name">Heavenly Vibes</div>
+        <div class="desc">Best White Floral Scent</div>
+        <div class="price">Rs.1,570</div>
+        <div class="del"><del>Rs.1,650</del></div>
+        <div class="reviews">
+            <div class="stars">
+<i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+            </div>
+        <p>20 reviews</p> 
+        </div>
+    </div>
+    </div>
+
+    <a href="https://scentsnstories.pk/collections/week-2/products/beyond-layers">
+    <div class="cards">
+        <img src="https://scentsnstories.pk/cdn/shop/files/beyondlayers_189c7d24-83bc-475c-a1f0-6fcd5bf241ab.png?v=1698990088" alt="">
+        <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+            <img src="save.webp" alt="">
+        <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+        <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+        </div></a>
+    <div class="button">SALE</div>
+    <div class="info">
+        <div class="name">Beyond Layers</div>
+        <div class="desc">Best Selling Mossy Wood Perfume</div>
+        <div class="price">Rs.1,950</div>
+        <div class="del"><del>Rs.2,050</del></div>
+        <div class="reviews">
+            <div class="stars">
+<i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+            </div>
+        <p>16 reviews</p> 
+        </div>
+    </div>
+    </div>
+
+    <a href="https://scentsnstories.pk/collections/week-2/products/elegant">
+    <div class="cards">
+        <img src="https://scentsnstories.pk/cdn/shop/files/elegant_6c2e41f9-ebac-414d-93d8-72f7514c8f86.png?v=1703328617" alt="">
+        <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+            <img src="save.webp" alt="">
+        <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+        <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+        </div></a>
+    <div class="button">SALE</div>
+    <div class="info">
+        <div class="name">Elegant</div>
+        <div class="desc">Women's Prestige Fragrance (2003)</div>
+        <div class="price">Rs.1,660</div>
+        <div class="del"><del>Rs.1,750</del></div>
+        <div class="reviews">
+            <div class="stars">
+<i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+            </div>
+        <p>7 reviews</p> 
+        </div>
+    </div>
+    </div>
+
+
+
+    </div>
+</div>
+<!-- ---------- -->
+
+<div class="categories">
+    <a href="https://scentsnstories.pk/collections/men">
+    <img src="https://scentsnstories.pk/cdn/shop/collections/Men_2.jpg?v=1688624958&width=720" alt=""><p>Men</p></a>
+    <a href="https://scentsnstories.pk/collections/women">
+    <img src="https://scentsnstories.pk/cdn/shop/collections/Women_2.jpg?v=1670517675&width=720" alt=""><p>Women</p></a>
+    <a href="https://scentsnstories.pk/collections/eastern">
+    <img src="https://scentsnstories.pk/cdn/shop/collections/Eastern_3.jpg?v=1667494493&width=720" alt=""><p>Eastern
+    </p></a>
+    <a href="https://scentsnstories.pk/collections/western">
+    <img src="https://scentsnstories.pk/cdn/shop/collections/Western_2.jpg?v=1667494526&width=720"><p>Western</p></a>
+</div>                  
+
+<!-- ---------- -->
+
+<div class="portion">
+    <h1 style="margin-top: 210px; position: relative; right: 0px;">OUR BEST SELLERS</h1>
+    <div class="card-container" style="margin-top: 300px;">
+
+    <a href="https://scentsnstories.pk/collections/best-seller/products/catch-22">
+    <div class="cards">
+        <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/catch22_1_1024x1024.png?v=1703228297" alt=""></div>
+        <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+            <img src="save.webp" alt="">
+        <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+        <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+        </div></a>
+        <div class="info">
+            <div class="name">Catch 22</div>
+            <div class="desc">Our #1 Best Seller</div>
+            <div class="del">from</div>
+            <div class="price">Rs.1,790</div>
+            <div class="reviews">
+                <div class="stars">
+<i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+                </div>
+            <p>397 reviews</p> 
+            </div>
+        </div>
+    </div>
+
+    <a href="https://scentsnstories.pk/collections/best-seller/products/catch-22">
+    <div class="cards">
+        <div class="image"><img src="https://scentsnstories.pk/cdn/shop/products/merryme_11e050da-8df8-49b3-b43a-abb750ee6076_1024x1024.png?v=1679909186" alt=""></div>
+        <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+            <img src="save.webp" alt="">
+        <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+        <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+        </div></a>
+        <div class="info">
+        <div class="name">Merry Me</div>
+        <div class="desc">#1 Women's Best-Seller</div>
+        <div class="del">from</div>
+        <div class="price">Rs.1,690</div>
+        <div class="reviews">
+            <div class="stars">
+ <i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+            </div>
+        <p>95 reviews</p> 
+        </div>
+        </div>
+    </div>
+
+    <a href="https://scentsnstories.pk/collections/best-seller/products/smash-my-head-edp">
+    <div class="cards">
+        <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/smashmyhead100ml_1800x1800.png?v=1703328342" alt=""></div>
+        <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+            <img src="save.webp" alt="">
+        <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+        <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+        </div></a>
+        <div class="info">
+            <div class="name">Smash My Head (EDP)</div>
+            <div class="desc">Our Top Rated Perfume</div>
+            <div class="del">from</div>
+            <div class="price">Rs.2,590 </div>
+            <div class="reviews">
+                <div class="stars">
+ <i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+                </div>
+            <p>174 reviews</p> 
+            </div>
+        </div>
+    </div>
+
+    <a href="https://scentsnstories.pk/collections/best-seller/products/tipping-point">
+    <div class="cards">
+    <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/TippingPointWeb.png?v=1702464535" alt=""></div>
+    <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+        <img src="save.webp" alt="">
+    <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+    <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+    </div></a>
+    <div class="info">
+        <div class="name">Tipping Point</div>
+        <div class="desc">Our #1 Office Wear!</div>
+        <div class="del">from</div>
+        <div class="price">Rs.1,990</div>
+        <div class="reviews">
+            <div class="stars">
+ <i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+            </div>
+        <p>137 reviews</p> 
+        </div>
+    </div>
+    </div>
+
+    <a href="https://scentsnstories.pk/collections/best-seller/products/florse">
+    <div class="cards">
+    <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/Florse_488dc846-e9cc-4514-a9d5-17385a148cac.png?v=1703228487" alt=""></div> 
+    <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+        <img src="save.webp" alt="">
+    <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+    <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+    </div></a>
+        <div class="info">
+            <div class="name">Florse</div>
+            <div class="desc">Our Best Floral Fragrance</div>
+            <div class="del">from</div>
+            <div class="price">Rs.1,750</div>
+            <div class="reviews">
+                <div class="stars">
+ <i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+                </div>
+            <p>60 reviews</p> 
+            </div>
+        </div>
+    </div>
+ 
+
+    </div>
+</div>
+<!-- ---------- -->
+<div class="categories-container">
+<div class="categories">
+    <a href="https://scentsnstories.pk/collections/summer-2">
+    <img src="https://scentsnstories.pk/cdn/shop/collections/Summer.jpg?v=1667494351&width=720" alt=""><p>Summer</p></a>
+    <a href="https://scentsnstories.pk/collections/winter-2">
+    <img src="https://scentsnstories.pk/cdn/shop/collections/Winter.jpg?v=1667494382&width=720" alt=""><p>Winter</p></a>
+    <a href="https://scentsnstories.pk/collections/office">
+    <img src="https://scentsnstories.pk/cdn/shop/collections/Office.jpg?v=1667494560&width=720em" alt=""><p>Office
+    </p></a>
+    <a href="https://scentsnstories.pk/collections/body-mist">
+    <img src="https://scentsnstories.pk/cdn/shop/collections/bodymist_3.png?v=1691489118&width=720"><p>Body Mist</p></a>
+    <a href="https://scentsnstories.pk/collections/gift-box">
+    <img src="https://scentsnstories.pk/cdn/shop/collections/gifting_banner.png?v=1668774552&width=720"><p>Gifting</p></a>
+</div>  
+</div>
+<!-- ------ -->
+<div class="part" >
+    <h1  style="position: relative; top: 150px;">NEW ARRIVALS</h1>
+    <div class="card-container"  style="position: relative; top: 80px;">
+
+    <a href="https://scentsnstories.pk/collections/new-arrival/products/uraan">    
+    <div class="cards">
+    <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/qguraan.png?v=1706356763&width=900" alt=""></div>
+    <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+        <img src="save.webp" alt="">
+    <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+    <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+    </div></a>
+        <div class="info">
+            <div class="name">Uraan</div>
+            <div class="desc">Ambery Vanilla Boost</div>
+            <div class="price">Rs.2,670</div>
+        </div>
+    </div>
+
+    <a href="https://scentsnstories.pk/collections/new-arrival/products/hisar">
+    <div class="cards">
+    <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/qghisar.png?v=1706357861&width=900" alt=""></div> 
+    <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+        <img src="save.webp" alt="">
+    <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+    <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+    </div></a>
+        <div class="info">
+            <div class="name">Hisar</div>
+            <div class="desc">Smoky Vanilla Pleasure</div>
+            <div class="price">Rs.3,990</div>
+        </div>
+    </div>
+
+    <a href="https://scentsnstories.pk/collections/new-arrival/products/soch">
+    <div class="cards">
+    <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/qgsoch.png?v=1706359044&width=360" alt=""></div> 
+    <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+        <img src="save.webp" alt="">
+    <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+    <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+    </div></a>
+        <div class="info">
+            <div class="name">Soch</div>
+            <div class="desc">Zesty scent to Spark Your Imagination</div>
+            <div class="price">Rs.1,790</div>
+        </div>
+    </div>
+
+    <a href="https://scentsnstories.pk/collections/new-arrival/products/quetta-gladiators-5ml-sample-set">
+    <div class="cards">
+    <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/QGDISCOVERYSET.png?v=1706364920&width=360" alt=""></div> 
+    <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+        <img src="save.webp" alt="">
+    <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+    <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+    </div></a>
+    <div class="info">
+        <div class="name">Quetta Gladiators 5ml Sample Set</div>
+        <div class="desc">Newli Launched Trio</div>
+        <div class="price">Rs.1,450</div>
+    </div>
+    </div>
+
+    <a href="https://scentsnstories.pk/collections/new-arrival/products/catch-22-gold-edition">
+    <div class="cards">
+    <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/ge.jpg?v=1700597127&width=360" alt=""></div> 
+    <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+        <img src="save.webp" alt="">
+    <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+    <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+    </div></a>
+    <div class="info">
+        <div class="name">Catch 22 - Gold Edition</div>
+        <div class="desc">The Premeium Gold Fragrance</div>
+        <div class="price">Rs.3,550</div>
+    </div>
+    </div>
+
+    </div>
+</div>
+<!-- ---- -->
+<div class="box">
+    <div class="box-top" style="position: relative; top: 70px; ">
+    <a href="https://scentsnstories.pk/collections/perfume-wax"><img src="https://scentsnstories.pk/cdn/shop/files/perfume_wax_1_op.jpg?v=1689336531&width=900" alt=""></a>
+    <a href="https://scentsnstories.pk/collections/sample-set"><img src="https://scentsnstories.pk/cdn/shop/files/sample_set_2_op.jpg?v=1689336530&width=900" alt=""></a>
+    </div>
+    <div class="box-bottom" style="position: relative; top: 70px;">
+    <a href="https://scentsnstories.pk/collections/attar"><img src="https://scentsnstories.pk/cdn/shop/files/check_4_final_1_op.jpg?v=1689336530&width=900" alt=""></a>
+    <a href="https://scentsnstories.pk/collections/air-freshener"><img src="https://scentsnstories.pk/cdn/shop/files/air_freshness_3_1_op.jpg?v=1689336530&width=900" alt=""></a>
+    </div>
+</div>
+<!-- ---- -->  
+   <div class="last" style="position: relative; top: 380px;">
+    <h1 >MOST UNDERRATED FRAGRANCES</h1>
+    <div class="card-container">
+
+        <a href="https://scentsnstories.pk/collections/top-rated-fragrances/products/cross-my-heart">
+        <div class="cards">
+        <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/crossmyheart_37f5212c-b73d-4e4a-b875-43724a8117bd.png?v=1703228335&width=360" alt=""></div>
+        <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+            <img src="save.webp" alt="">
+        <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+        <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+        </div></a>
+        <div class="info">
+            <div class="name">Cross My Heart</div>
+            <div class="desc">The Most Noticeable Scent!</div>
+            <div class="del">from</div>
+            <div class="price">Rs.1,620</div>
+            <div class="reviews">
+                <div class="stars">
+ <i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+                </div>
+            <p>59 reviews</p> 
+            </div>
+        </div>
+        </div>
+
+         <a href="https://scentsnstories.pk/collections/top-rated-fragrances/products/rain-on-me">
+         <div class="cards">
+       <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/rainonme_ba87e336-8a85-4a4f-8040-6019f18537ac.png?v=1703229641&width=900" alt=""></div>
+        <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+            <img src="save.webp" alt="">
+        <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+        <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+        </div></a>
+        <div class="info">
+            <div class="name">Rain On Me</div>
+            <div class="desc">2nd Best Selling Aquatic Perfume</div>
+            <div class="del">from</div>
+            <div class="price">Rs.1,780</div>
+            <div class="reviews">
+                <div class="stars">
+ <i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+                </div>
+            <p>40 reviews</p> 
+            </div>
+        </div>
+        </div>
+
+        <a href="https://scentsnstories.pk/collections/top-rated-fragrances/products/romantic-coffee">
+         <div class="cards">
+           <div class="image"><img src="https://scentsnstories.pk/cdn/shop/products/romanticcoffee_4267fa2c-4606-4fc7-b0e9-77ebd457141f.png?v=1680010876&width=360" alt=""></div>
+            <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+                <img src="save.webp" alt="">
+                <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+            <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+            </div></a>
+             <div class="info">
+                 <div class="name">Romantic Coffee</div>
+                 <div class="desc">Our Best Selling Signature Fragrance</div>
+                 <div class="del">from</div>
+                 <div class="price">Rs.1,990</div>
+                 <div class="reviews">
+                     <div class="stars">
+ <i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+                     </div>
+                     <p>38 reviews</p> 
+                     </div>
+             </div>
+         </div>
+
+        <a href="https://scentsnstories.pk/collections/top-rated-fragrances/products/million-worlds">
+        <div class="cards">
+        <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/millionworlds_a8d08bc6-b214-49cd-a570-6885d5ed83f6.png?v=1703229498&width=360" alt=""></div> 
+        <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+            <img src="save.webp" alt="">
+        <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+        <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+        </div></a>
+        <div class="info">
+            <div class="name">Million Worlds</div>
+            <div class="desc">World's Best Seller DNA</div>
+            <div class="del">from</div>
+            <div class="price">Rs.1,520</div>
+            <div class="reviews">
+                <div class="stars">
+ <i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+                </div>
+            <p>35 reviews</p> 
+            </div>
+        </div>
+        </div>
+
+        <a href="https://scentsnstories.pk/collections/top-rated-fragrances/products/into-eternity">
+        <div class="cards">
+        <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/intoeternity_8d17a8ec-80bf-4f41-8e09-87736eb6d703.png?v=1703228698&width=360" alt=""></div>
+        <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+            <img src="save.webp" alt="">
+        <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+        <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+        </div> </a>
+        <div class="info">
+            <div class="name">Into Eternity</div>
+            <div class="desc">Most Awarded Fragrance</div>
+            <div class="del">from</div>
+            <div class="price">Rs.1,280</div>
+            <div class="reviews">
+                <div class="stars">
+ <i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+                </div>
+            <p>9 reviews</p> 
+            </div>
+        </div>
+        </div>
+
+    </div>
+   </div>               
+<!-- ---- -->
+ <div class="quiz">
+    <h1>TAKE A QUIZ TO FIND</h1>
+    <h3>YOUR PERFECT SCENT</h3>
+    <a href="https://scentsnstories.pk/pages/quiz"><button><p>START QUIZ</p></button></a>
+ </div>       
+<!----- -->
+<footer>
+    
+</footer>
+</main>
+</div>
+
+<!--Blocks Structure-->
+<div class="block">
+<!--Block1-->
+<div class="block1">
+<div class="text-with-icons__block-text-center" style="width: 70%;">
+    <div class="text-with-icons__block-icon">
+      
+          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-tcwi-trophy" viewBox="0 0 100 100" style="margin-left: 130px;"><defs><style>.a{fill:none;stroke:#000;stroke-width:6px; }</style></defs><path class="a" d="M33.62 87.94h32.76m4.79-37.86a8.85 8.85 0 0 0 3.21-.93c4.16-2.09 7.12-7.42 7.12-13.65V18.63H73M28.83 50.08a8.85 8.85 0 0 1-3.21-.93c-4.16-2.09-7.12-7.42-7.12-13.65V18.63H27M55.94 38.9l1.4 8.17L50 43.21l-7.34 3.86 1.4-8.17-5.94-5.79 8.21-1.19L50 24.48l3.67 7.44 8.21 1.19-5.94 5.79z"></path><path class="a" d="M27 12.06V40a27.76 27.76 0 0 0 .45 5 4.1 4.1 0 0 0 .11.61 27 27 0 0 0 1.26 4.44c3.18 8.38 10.12 14.49 18.43 15.6a19.25 19.25 0 0 0 2.75.19 18.87 18.87 0 0 0 2.73-.19 22 22 0 0 0 13.52-7.38 26.16 26.16 0 0 0 4.91-8.19 27 27 0 0 0 1.26-4.44 4.1 4.1 0 0 0 .11-.61A27.76 27.76 0 0 0 73 40V12.06Zm22.97 53.78v22.1"></path></svg>
+        
+    </div>
+    <div class="text-with-icons__block-title1">
+      <h3>AWARDED BY CONSUMER ASSOCIATION OF PAKISTAN</h3>
+    </div>
+    <div class="text-with-icons__block-text1">
+      <p>Consumer Association of Pakistan recognized Scents</p>
+      <p class="sub"> N Stories  in 17th Consumer Choice Awards</p>
+    </div>
+  </div>
+
+
+  <div class="text-with-icons__block-text-center" style="width: 80%;">
+    <div class="text-with-icons__block-icon">
+      
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-tcwi-shield" viewBox="0 0 100 100" style="margin-left: 170px;"><defs><style>.a{fill:none;stroke:#000;stroke-width:6px;margin-left: 160px;}</style></defs><path class="a" d="M51.18 7.63c5.54 3.1 17.09 8.07 34.33 8.07h1.07v23.72A56.14 56.14 0 0 1 80 66.07C73.58 78 63.89 85.62 51.18 88.83 38.48 85.62 28.79 78 22.36 66.06a56.08 56.08 0 0 1-6.58-26.64V15.7h1.07c17.25 0 28.8-4.97 34.33-8.07Z"></path><path class="a" d="M66.15 37.87 45.43 58.59l-9.21-9.21"></path></svg>
+        
+    </div>
+    <div class="text-with-icons__block-title2">
+      <h3>15 DAYS EASY RETURNS POLICY</h3>
+    </div>
+    <div class="text-with-icons__block-text2">
+      <p>Not Satisfied With Your Purchase?<br>
+        Get an Exchange or Refund For Upto <br></p>
+        <p class="sub1">15 Days Of Purchase</p>
+    </div>
+  </div>
+
+
+  <div class="text-with-icons__block-text-center" style="width: 60%;">
+    <div class="text-with-icons__block-icon">
+      
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-tcwi-thumbs-up" viewBox="0 0 100 100" style="margin-left: 110px;"><defs><style>.a{fill:none;stroke:#000;stroke-width:6px}</style></defs><path class="a" d="M16.01 54.13h20.02v35.22H16.01z"></path><path class="a" d="m36 82.72 3.84 2.63a11.53 11.53 0 0 0 6.54 2h13.91M36 58.78l2.07-1.93A10.23 10.23 0 0 0 40.26 54l7.66-15a7.4 7.4 0 0 0 .81-3.36v-8.3a2.93 2.93 0 0 1 2.92-2.94c2.41 0 5.78 1 7.92 6.18a18.63 18.63 0 0 1 1 10.5l-1.29 6.94h19A4.91 4.91 0 0 1 83.16 53a4.91 4.91 0 0 1-4.91 4.92H59.6m3.08 9.8H76a4.91 4.91 0 0 1 4.91 4.92A4.91 4.91 0 0 1 76 77.55H65.65"></path><path class="a" d="M65.65 77.55h6.12a4.92 4.92 0 0 1 4.92 4.92 4.93 4.93 0 0 1-4.92 4.92h-12.5m.33-29.5h19.47A4.92 4.92 0 0 1 84 62.81a4.91 4.91 0 0 1-4.92 4.91h-16.4m-9.49-47.66v-9.41m-5.86 11.47-6.05-7.22m2.87 12.56-9.27-1.64m27.16 1.86 9.27-1.64M59 22.26l6.05-7.21"></path></svg>
+        
+    </div>
+    <div class="text-with-icons__block-title3">
+      <h3>HIGH CONCENTRATION </h3>
+      <h3 class="sub2"> PERFUMES</h3>
+    </div>
+    <div class="text-with-icons__block-text3">
+        <p>We Set Our Concentrations As High As Possible </p> 
+        <p class="sub3"> To Maximum Performance Of The  Perfumes</p>
+    </div>
+  </div>
+
+</div>
+
+<!--Block 2-->
+<div class="block2">
+    <div class="left-side">
+ <a href="#"><img src="/shop pic.jpg" alt=""></a>
+    </div>
+    <div class="right-side">
+        <div class="tittle">
+            <h2> <strong>OUR RETAIL <br> OUTLETS </strong></h2>
+            <p style="font-size: 1.8rem; margin-top: 20px; margin-right: 50px; line-height: 40px; font-family: 'Didact Gothic', sans-serif; font-weight: lighter;">In 2021, we took our first steps to expand e-commerce into the realm of traditional retail, and now we have opened several perfume studios in Karachi, Lahore, Islamabad, and other cities. We warmly welcome our customers to visit our studios and personally experience our range of scents.</p>
+            <button><a href="#">Get Direction</a></button>
+        </div>
+   </div>
+</div>
+
+<!--Customer Reviews Slider-->
+<div class="main">
+    <div class="box-tittle">
+        <h2>FROM OUR CUSTOMERS</h2>
+    </div>
+    <div class="boxes">
+        <div class="box box1">
+            <div class="box-star">
+                <i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+            </div>
+            <div class="box-para">
+                <p id="para1">I love a scent that can make memories come aliveWaooo !!! what an amazing perfume with a premium packaging delivered gift by this  Scents . </p>
+                <p style="margin-left: 90px; position: relative; bottom: 10px; " id="inline1">N Stories.</p>
+            </div>
+            <div class="box-pic">
+                <img src="/profile-pic1.avif" alt="" style="margin-top: 35px;" id="img1">
+            </div>
+            <div class="box-name">
+                <cite id="name1">Maryam Asad</cite>
+            </div>
+            <div class="box-info">
+                <p id="info1">Inferno</p>
+            </div>
+        </div>
+
+        <div class="box box2" id="Box">
+            <div class="box-star">
+                <i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+            </div>
+            <div class="box-para">
+                <p id="para2">Just received my parcel today and this is the best impression I've ever smelt. Projection and lasting is</p>
+                <p style="margin-left: 50px; position: relative; bottom: 10px; " id="inline2">out of this world. </p>
+            </div>
+            <div class="box-pic">
+                <img src="/profile pic2.avif" alt="" style="margin-left: 110px; margin-top: 72px;" id="img2">
+            </div>
+            <div class="box-name">
+                <cite id="name2">Ali Muhammad</cite>
+            </div>
+            <div class="box-info">
+                <p style="margin-left: 120px;" id="info2">Umeed</p> 
+            </div>
+        </div>
+
+        <div class="box box3">
+            <div class="box-star">
+                <i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+            </div>
+            <div class="box-para">
+                <p id="para3">Really impressed with their fragrance (Amber Oud), people who prefer Attar should try it. Such a vibrant and strong smell </p>
+                <p style="margin-left: 100px; position: relative; bottom: 10px; " id="inline3">of Oud.</p>
+            </div>
+            <div class="box-pic"  >
+                <img src="/profile pic3.avif" alt="" style="margin-left: 110px; margin-top: 50px;" id="img3" >
+            </div>
+            <div class="box-name">
+                <cite id="name3">Shohaib Tariq</cite>
+            </div>
+            <div class="box-info">
+                <p id="info3">Amber Oud</p>
+            </div>
+            <div class="circles"  id="circle">
+              
+               <button class=" circle circle1" id="circle1" onclick="change1()">.</button>
+               <button class="circle circle2" id="circle2" onclick="change2()">.</button>
+               <button class=" circle circle3" onclick="change3()">.<button>
+            </div>
+        </div>
+
+</div>
+</div>
+
+<!--Block 3-->
+<div class="block3">
+<div class="hr">
+    <hr>
+</div>
+<div class="heading">
+    <h2>100+ DESIGNER FRAGRANCES TO CHOOSE FROM</h2>
+</div>
+<div class="para">
+    <p>Scents N Stories is the first online perfume store selling designer fragrances in Pakistan. We sell high quality perfumes inspired by top-rated designer fragrances. We have the biggest variety of branded perfumes in Pakistan as compared to any other local fragrance shop. The purpose of having a large variety of scents is that we have a collection which takes care of everyone's needs. People of every age and gender can find perfumes suited for every occasion and setting as per their preference. Whether you want to go to the office or a party, we have a number of scents for you to choose from for every </p>
+    <p class="margin1" >time of the day. Branded perfumes in Pakistan have become too expensive because of the exchange rate.</p>
+    <p class="margin">At Scents N Stories, we sell high concentration perfumes at affordable prices. We are able to sell a large collection of perfumes at low costs by having standard packaging and spending less on advertisements. Most of our costs go into the juice of the perfume instead of the packaging and marketing. This enables us to give high value to our customers for their money. The quality of our scents is at par with the designer fragrances everyone loves! Despite having a large variety of designer fragrances, we give as much details as possible about every perfume in our collection. This is to help the customers </p>
+    <p class="margin2">make an informed choice.</p></p>
+    <p class="margin">Most designer fragrances in Pakistan are sold without giving any concrete knowledge about the perfume itself. If the customers do not like the smell of the perfume, our easy-return policy facilitates them. They can return a perfume within 15 days. The easy-to-use filters at the Scents n Stories website make it extremely easy for the customer to buy the perfect designer fragrances which suit their personality. Customers can filter their preferences according to</p>
+    <p class="margin3"> gender, genre, type, season, brand, projection, lasting and notes. Buying designer fragrances in Pakistan has never been this easy!</p>
+</div>
+</div>
+
+
+<div class="block4">
+<div class="display">
+    <div class="display1">
+<a href="https://play.google.com/store/apps/details?id=com.blink.scentsnstories&pli=1"><img src="/play store_download.avif" alt=""></a>
+ <p class=".line1">Download the app, place your order, and have it delivered right to your doorstep</p>
+ <div class="line2"> <p class=".line2">that very same day.</p></div>
+ <div class="line3"><p class=".line3">*Applicable Only to Karachi and Lahore Residents</p></div>
+ </div>
+    <div class="display2">
+        <a href="https://apps.apple.com/us/app/scents-n-stories/id1597087272"><img src="app store_download.avif" alt=""></a>
+         <p class="sentence1">Download the app, place your order, and have it delivered right to your doorstep</p>
+         <div class="sentence2"><p class="sentence2">that very same day.</p></div>
+         <div class="sentence3">    <p class="sentence3">*Applicable Only to Karachi and Lahore Residents</p>
+</div>
+      </div>
+    
+</div>
+</div>
+
+
+<div class="block5" style="position: relative; top: 100px;">
+<h2 class="block5_heading">PRODUCT CATALOGUE</h2>
+<button class="block5_button"><a href="#">Download Now</a></button>
+</div>
+
+</div>
+<!--Footer Structure-->
+<footer>
+    <hr style="border: 2px solid rgba(233, 232, 232, 0.822); position: relative; top: 180px;">
+    <!--Footer Part 1-->
+    <div class="footer_part1">
+      <div class="label"><p  style="position: relative; top: 120px;">Let's keep in touch ! Get email offers & the latest news from us </p></div>
+       <div class="subscribe">
+    <form action="" id="form" style="position: relative; top: 130px;">
+            <input type="email" placeholder="Enter your email" required="true" autofocus autocomplete="on"pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Format:example@gmail.com" id="input">
+           <div ></div>
+           <button type="submit" id="button" >Subscribe</button> 
+        </form>
+        <div id="result"></div>
+       </div>    
+    </div>
+    <hr style="border: 2px solid white; position: relative; top: 570px;">
+    <p style="position: relative; top: 620px; margin-left: 540px; color: white;" ><span class="material-symbols-outlined">
+        copyright
+        </span> 2024 Scents N Stories Pvt Ltd. support@scentsnstories.pk</p>
+<div class="footer_part2">
+    <div class="part-2_part1">
+        
+      
+        <img src="/QG_Logo_For_web_footer_2.webp" alt="">
+        <div class="div div1">
+            <h2>About</h2>
+       <ul>
+        <li><a href="#"> FAQs</a></li>
+        <li><a href="https://scentsnstories.pk/pages/scents-n-stories-our-story">Our Story</a></li>
+        <li><a href="https://scentsnstories.pk/pages/scents-n-stories-media-page">Media Page</a></li>
+        <li><a href="#">Quiz</a></li>
+        <li><a href="https://scentsnstories.pk/pages/our-new-logo">Our New Logo</a></li>
+        <li><a href="https://sns.flowhcm.com/#/jobopenings">Careers / Jobs</a></li>
+        <li><a href="https://scentsnstories.pk/pages/accessibility-statement">Accessibility Statement</a></li>
+       </ul>
+        </div>
+       
+    <div class="div div2">
+            <h2>SUPPORT</h2>
+       <ul>
+        <li><a href="https://scentsnstories.pk/pages/returns">Return Form</a></li>
+        <li><a href="https://scentsnstories.pk/policies/privacy-policy"> Private Policy</a></li>
+        <li><a href="https://scentsnstories.pk/policies/shipping-policy">Shipping Policy</a></li>
+        <li><a href="https://scentsnstories.pk/policies/terms-of-service">Terms of Service</a></li>
+        <li><a href="#">Track Your Order</a></li>
+        <li><a href="#">My account</a></li>
+       </ul>
+        </div>
+
+        <div class="div div3">
+            <h2>QUICK LINKS</h2>
+       <ul>
+        <li><a href="https://scentsnstories.pk/pages/gold-membership"> Gold Membership</a></li>
+      <li><a href="https://scentsnstories.pk/pages/custom-order-form">Ask For A Perfume</a></li>
+        <li><a href="https://scentsnstories.pk/pages/customized-giveaway">Bulk / Customize Orders</a></li>
+        <li><a href="https://scentsnstories.pk/pages/own-a-franchise">Own a Franchise</a></li>
+        <li><a href="#">Store Locator</a></li>
+       </ul>
+        </div>
+       
+        <div class="div div4">
+            <h2> GET IN TOUCH</h2>
+       <ul>
+        <li><a href="https://secure.skype.com/en/skype-number/"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-phone" viewBox="0 0 64 64" class="phone_email"><path d="m18.4 9.65 10.2 10.2-6.32 6.32c2.1 7 6.89 12.46 15.55 15.55l6.32-6.32 10.2 10.2-8.75 8.75C25.71 50.3 13.83 38.21 9.65 18.4Z" style="fill:none;stroke:grey;stroke-width:2px;"></path></svg> +92 311 100 7862</a></li>
+        <li><a href="#"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-email" viewBox="0 0 64 64" class="phone_email"><path d="M63 52H1V12h62ZM1 12l25.68 24h9.72L63 12M21.82 31.68 1.56 51.16m60.78.78L41.27 31.68" style="fill:none;stroke:grey;stroke-miterlimit:10;stroke-width:2px"></path></svg> Email us</a></li>
+        </ul>
+        <h2 style="margin-top: 40px; font-weight: bolder;">Follow us</h2>
+        <div class="images">
+            <a href="https://www.instagram.com/scentsnstories/"><img src="/insta.png" alt=""></a>
+          <a href="https://web.facebook.com/scentsnstoriesintl?_rdc=1&_rdr">  <img src="/facebook.png" alt=""></a>
+          <a href="https://www.youtube.com/channel/UCSeHLZndE-63bREgPBoQIIQ"> <img src="/youtube.png" alt=""></a>
+            <a href="https://twitter.com/scentsnstories_" ><img src="/twitter.png" alt=""></a>
+        </div>
+        
+        <div class="images2">
+            <a href="https://www.snapchat.com/add/snstories">  <img src="/likee.jpg" alt=""></a>
+                <a href="https://www.tiktok.com/@scentsnstories"><img src="/tiktok.png" alt=""></a>
+                    <a href="https://www.linkedin.com/company/scentsnstories/"><img src="/linkedin.jpg" alt=""></a>
+        </div>
+</div>
+        <div class="div div5">
+            <h2>We Accept</h2>
+       <ul>
+        <li> <svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" class="svg svg1" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"></path></svg></li>
+        <li><svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master" class="svg svg2"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#F79E1B" cx="23" cy="12" r="7"></circle><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg></li>
+       
+       </ul>
+        </div>
+       
+        </div>
+    <div class="end">
+
+    
+       
+        <p ><span class="material-symbols-outlined">
+            copyright
+            </span> 2024 Scents N Stories Pvt Ltd. support@scentsnstories.pk</p>
+  
+    </div>
+</div> 
+
+
+</footer>
+
+<script src="/WEBSITE-INDEX.js"></script>
+</body>
+</html>

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="//scentsnstories.pk/cdn/shop/files/Favicon_55898b4a-6b76-4016-94ce-d7ea503675ea_32x32.png?v=1691871459" type="image/png">
+    <link rel="stylesheet" href="/header and footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Le&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Maven+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Scents N Stories - Best Impression of Designer Fragrances in Pakistan</title>
+</head>
+
+<body>
+   <!--structure for fixed buttons-->
+   <!--code of popup1-->
+    <div class="gift" style="cursor: pointer; z-index: 102;">
+     <p id="Cross">  <i class="ri-gift-line" onclick="OpenPopup()" id="end" style="color: #000;"></i></p> 
+      <p id="Close" class="cross" onclick="ClosePopup()"> <i class="ri-arrow-drop-down-line"  id="xyz" onclick="closePopup()"></i></p> 
+        <div class="number"><p>5</p></div>
+    </div>
+    <div id="Overlay" class="Overlay" onclick="ClosePopup()">
+        <div class="popup1">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <div class="flex" style="display: flex;"  >
+            <img src="/pop-up img1.jpg" alt="">
+            <h2 style="margin-top: 10px;">Scents N Stories</h2>
+            <img src="/pop-up img2.jpg" alt="" style="height: 10px; margin-left: 10px; margin-top: 20px;">
+            <img src="/pop-up img3.jpg" alt=""style="margin-left: 90px; position: relative; left: 100px;">
+        </div>
+           
+            <div style="background-color: rgb(227, 248, 255); height: 450px; width: 500px;" >
+                <div id="Message"  ></div>
+                <form action="" id="Messageform">
+                    <div id="time"></div>
+                    <div id="reply"></div>
+           <input type="text"  id="inputMessage" placeholder="Type Your Message" style="border: 2px solid rgb(30, 126, 158); width: 400px; margin-top: 380px; height: 50px;  box-shadow: 0 0 10px rgba(0, 0, 255, 0.3);">
+        <button style="background-color:rgb(227, 248, 255) ; border: none;" id="submit"><span class="material-symbols-outlined" style="color: #C21010; font-size: 35px; font-weight: bold; margin-left: 20px; margin-top: 30px; position: relative; top: 10px; cursor: pointer;" >   
+            send
+            </span>
+            </button>
+        </form>
+           </div>
+           <img src="/pop-up img4.jpg" alt="" style=" width: 500px; height: 30px;">
+        </div>
+    </div>
+    <!--code for second popup-->
+    <div class="scentBot" style="cursor: pointer;">
+    <button onclick="openPopup()" style="cursor: pointer;">
+        <p id="cross" style="position: relative; top: 10px;"><i class="ri-send-plane-fill" ></i>
+            Scent Bot</p>
+            <p id="close" class="cross" onclick="closePopup()"><i class="ri-close-fill"></i></P>
+    </button>
+</div>
+<div id="Overlay." class="Overlay" onclick="closePopup()">
+    <div class="popup2">
+        <span class="close-btn" onclick="ClosePopup()">&times;</span>
+        <h2>Get these awesome free gifts</h2>
+        <div class="image" style="overflow-y: scroll; height: 400px; width: 500px;">
+        <img src="/gift1.jpg" alt="">
+        <img src="/gift2.jpg" alt="">
+        <img src="/gift3.jpg" alt="">
+        <img src="/gift4.jpg" alt="">
+        <img src="/gift5.jpg" alt="">
+    </div>
+    </div>
+</div>
+
+  
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+
+        <section class="home">
+        <div class="home-text">
+            <div class="head">
+              <p class="animated-text">
+                <span> Pakistan's #1 Frag E-Store | Surprises in all orders!</span>
+                <span> Free Shipping on Orders Above Rs 3000</span>
+              </p> 
+            </div>
+        </div>
+        </section>
+
+<div class="hr"></div>
+
+    <div class="about">
+
+        <div class="search-container">
+            <label for="search" class="search-label">
+                <input type="text" id="search" placeholder="Search">
+                <span class="search-icon"><i class="ri-search-line" id="icon"></i></span>
+            </label>
+        </div>
+                
+        <div class="logo">
+            <a href="/website_index .html"> <img src="screenshot.jpg" alt=""></a> 
+          </div>
+  
+          <div class="side-menu" id="sideMenu">
+              <div class="account"><a href="/Account.html">
+                  <i class="ri-user-3-line"></i></a>
+                  <p id="account">A C C O U N T</p>
+              </div>
+              <div class="cart" id="cart-container">
+                  <div id="original-cart">
+                      <i class="ri-shopping-cart-line"></i>
+                  <p>C A R T</p>
+                  </div>
+                  <div id="new-cart" class="hidden">
+                      <div id="close-cart-icon">
+                         <p>C L O S E </p>
+                         <p class="cross"> &times;</p>
+                      </div>
+                          <div id="cart-dropdown"><p>Your cart is currently empty.</p></div>
+                  </div>
+              </div>
+          </div>
+  
+      </div>
+  
+  <div class="br"></div>
+  
+      <nav>
+          <div class="nav-menu">
+              <a href="/shop.html" class="shop">S h o p </a><div class="dropdown-icon" style="position: relative; right: 30px;">&#9660;</div>
+                  <a href="Weakly Deals.html" class="menu">W E E K L Y D E A L S</a>
+                  <a href="less than 1500.html" class="menu">L E S S   T H A N 1500</a>
+                  <a href="Bundle.html" class="menu">B U N D L E S</a>
+                  <a href="attar.html" class="menu">A T T A R S</a>
+                  <a href="/Blog1.html" class="menu">B L O G S</a>
+                  <div class="dropdown" >
+                      <a href="contact us.html">C O N T A C T </a> <div class="i" style="cursor: pointer; position: relative; right: 20px;">&#9660;</div>
+                      <div class="dropdown-content" id="contactsDropdown">
+                          <a href="/contact us.html">Contact Us</a>
+  <a href="/Our Outlets.html">Our Outlets</a>
+  <a href="/FAQs.html">FAQs</a>
+  <a href="https://web.facebook.com/groups/233403457857025?_rdc=1&_rdr">Join our Facebook Group</a>
+  <a href="/track your order.html">Track Your Order</a>
+                              <!-- Dropdown content will be dynamically added here using JavaScript -->
+                      </div>
+                  </div>
+              
+          </div>
+      </nav>
+   <div class="content shop-content">
+       <div class=" column column1">
+         <div class="group group-1">
+           <a href="#"><h3>Gender</h3></a> 
+           <a href="#">Men</a>
+           <a href="#">Women</a>
+        </div>
+        <div class="group group-2">
+            <a href="#"><h3>Range</h3></a> 
+            <a href="#">Explorer</a>
+            <a href="#">Executive</a>
+            <a href="#">Elite</a>
+         </div>
+         <div class="group group-3">
+            <a href="#"><h3>Weekly Deals</h3></a> 
+            <a href="#">Inferno</a>
+            <a href="#">Near You</a>
+            <a href="#">Heavenly Vibes</a>
+            <a href="#">Beyond Layers</a>
+            <a href="#">Elegant</a>
+         </div>
+       </div>
+         <div class="column column2">
+            <div class="group group-4">
+                <a href="#"><h3>Perfume Wax</h3></a> 
+                <a href="#">Catch 22 Perfume Wax</a>
+                <a href="#">Merry Me Perfume Wax</a>
+                <a href="#">Saiful Malook Perfume Wax</a>
+                <a href="#">Heavenly Vibes Perfume Wax</a>
+                <a href="#">Oud War Perfume Wax</a>
+                <a href="#">Velvet Smooth Perfume Wax</a>
+             </div>
+             <div class="group group-5">
+                <a href="#"><h3>Body Mist</h3></a> 
+                <a href="#">Living Floral Body Mist</a>
+                <a href="#">Lost Light Body Mist</a>
+                <a href="#">Heavenly Vibes Body Mist</a>
+             </div>
+             <div class="group group-6">
+                <a href="#"><h3>Best Sellers</h3></a> 
+                <a href="#">Men</a>
+                <a href="#">New Arrival</a>
+                <a href="#">Women</a>
+             </div>
+         </div>
+         <div class="column column3">
+            <div class="group group-7">
+                <a href="#"><h3>Genre</h3></a> 
+                <a href="#">Eastern</a>
+                <a href="#">Western</a>
+             </div>
+             <div class="group group-8">
+                <a href="#"><h3>Type</h3></a> 
+                <a href="#">Citrus</a>
+                <a href="#">Fruity</a>
+                <a href="#">Floral</a>
+                <a href="#">Woody</a>
+                <a href="#">Oriental</a>
+             </div>
+             <div class="group group-9">
+                <a href="#"><h3>Sample Test</h3></a> 
+                <a href="#">5 Samples of Your Choice</a>
+                <a href="#">Mr. Ayaz Samoos's Choice</a>
+                <a href="#">Mr & Mrs Faizan Sheikh's Choice</a>
+                <a href="#">Top 5 Samples</a>
+                <a href="#">Top Rated New Arrival Samples</a>
+             </div>
+         </div>
+         <div class="column column4">
+            <div class="group group-10">
+                <a href="#"><h3>Scented Candles</h3></a> 
+                <a href="#">Wild Flower scented Candle</a>
+                <a href="#">Coffee scented Candle</a>
+                <a href="#">Pink Vanilla & Chiffron</a>
+                <a href="#">White Peach scented Candle</a>
+                <a href="#">Amber & Oud scented Candle</a>
+                <a href="#">Sugar & Velvet scented Candle</a>
+             </div>
+             <div class="group group-11">
+                <a href="#"><h3>Premium Fragrances</h3></a> 
+                <a href="#">Catch 22 Gold Edition - For Men</a>
+                <a href="#">Farat - For Men</a>
+                <a href="#">Qarar - For Men</a>
+                <a href="#">Zarf - Unisex</a>
+                <a href="#">Rabt - For Men</a>
+             </div>
+         </div>
+         <div class="column column5">
+            <a href="https://scentsnstories.pk/collections/new-arrival/products/uraan">    
+                <div class="cards">
+                <div class="image"><img src="https://scentsnstories.pk/cdn/shop/files/qguraan.png?v=1706356763&width=900" alt=""></div>
+                <div class="elem" onmouseover="showElement(this)" onmouseout="hideElement(this)">
+                    <img src="save.webp" alt="">
+                <div class="overlay" id="icon1"><i class="ri-search-line"></i></div>
+                <div class="overlay" id="icon2"><i class="ri-add-line"></i></div>
+                </div></a>
+                    <div class="info">
+                        <div class="name">Uraan</div>
+                        <div class="desc">Ambery Vanilla Boost</div>
+                        <div class="price">Rs.2,670</div>
+                    </div>
+                </div>
+         </div>
+
+
+
+    </div>
+
+
+
+</div>
+</header>
+
+    <!-- ----------------------- -->
+
+<div class="body-container">
+
+    <div id="orderForm" class="order-form">
+        <h2>Track your Order</h2>
+        <form id="trackingForm">
+          <label for="orderId">Order ID:</label>
+          <div class="tooltip">
+            <input type="text" id="orderId" name="orderId" maxlength="4" pattern="\d{4}" title="Order ID must be 4 numbers" required>
+          </div>
+    <div class="phone">
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber" pattern="\d{11}" title="Enter a valid 11-digit phone number" required>
+        </div>
+          <button type="button" onclick="checkOrderStatus()">Track Order</button>
+        </form>
+      </div>
+    
+      <div id="orderStatus">
+        <h2>Order Status</h2>
+        <p id="statusText"></p>
+      </div>
+</div>
+
+
+
+
+<!--Footer Structure-->
+<footer>
+    <hr style="border: 2px solid rgba(233, 232, 232, 0.822); position: relative; top: 180px;">
+    <!--Footer Part 1-->
+    <div class="footer_part1">
+      <div class="label"><p  style="position: relative; top: 140px;">Let's keep in touch ! Get email offers & the latest news from us </p></div>
+       <div class="subscribe">
+    <form action="" id="form" style="position: relative; top: 160px;">
+            <input type="email" placeholder="Enter your email" required="true" autofocus autocomplete="on"pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Format:example@gmail.com" id="input">
+           <div ></div>
+           <button type="submit" id="button" >Subscribe</button> 
+        </form>
+        <div id="result"></div>
+       </div>    
+    </div>
+    <hr style="border: 2px solid white; position: relative; top: 570px;">
+    <p style="position: relative; top: 620px; margin-left: 540px; color: white;" ><span class="material-symbols-outlined">
+        copyright
+        </span> 2024 Scents N Stories Pvt Ltd. support@scentsnstories.pk</p>
+<div class="footer_part2">
+    <div class="part-2_part1">
+        
+      
+        <img src="/QG_Logo_For_web_footer_2.webp" alt="">
+        <div class="div div1">
+            <h2>About</h2>
+       <ul>
+        <li><a href="#"> FAQs</a></li>
+        <li><a href="https://scentsnstories.pk/pages/scents-n-stories-our-story">Our Story</a></li>
+        <li><a href="https://scentsnstories.pk/pages/scents-n-stories-media-page">Media Page</a></li>
+        <li><a href="#">Quiz</a></li>
+        <li><a href="https://scentsnstories.pk/pages/our-new-logo">Our New Logo</a></li>
+        <li><a href="https://sns.flowhcm.com/#/jobopenings">Careers / Jobs</a></li>
+        <li><a href="https://scentsnstories.pk/pages/accessibility-statement">Accessibility Statement</a></li>
+       </ul>
+        </div>
+       
+    <div class="div div2">
+            <h2>SUPPORT</h2>
+       <ul>
+        <li><a href="https://scentsnstories.pk/pages/returns">Return Form</a></li>
+        <li><a href="https://scentsnstories.pk/policies/privacy-policy"> Private Policy</a></li>
+        <li><a href="https://scentsnstories.pk/policies/shipping-policy">Shipping Policy</a></li>
+        <li><a href="https://scentsnstories.pk/policies/terms-of-service">Terms of Service</a></li>
+        <li><a href="#">Track Your Order</a></li>
+        <li><a href="#">My account</a></li>
+       </ul>
+        </div>
+
+        <div class="div div3">
+            <h2>QUICK LINKS</h2>
+       <ul>
+        <li><a href="https://scentsnstories.pk/pages/gold-membership"> Gold Membership</a></li>
+      <li><a href="https://scentsnstories.pk/pages/custom-order-form">Ask For A Perfume</a></li>
+        <li><a href="https://scentsnstories.pk/pages/customized-giveaway">Bulk / Customize Orders</a></li>
+        <li><a href="https://scentsnstories.pk/pages/own-a-franchise">Own a Franchise</a></li>
+        <li><a href="#">Store Locator</a></li>
+       </ul>
+        </div>
+       
+        <div class="div div4">
+            <h2> GET IN TOUCH</h2>
+       <ul>
+        <li><a href="https://secure.skype.com/en/skype-number/"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-phone" viewBox="0 0 64 64" class="phone_email"><path d="m18.4 9.65 10.2 10.2-6.32 6.32c2.1 7 6.89 12.46 15.55 15.55l6.32-6.32 10.2 10.2-8.75 8.75C25.71 50.3 13.83 38.21 9.65 18.4Z" style="fill:none;stroke:grey;stroke-width:2px;"></path></svg> +92 311 100 7862</a></li>
+        <li><a href="#"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-email" viewBox="0 0 64 64" class="phone_email"><path d="M63 52H1V12h62ZM1 12l25.68 24h9.72L63 12M21.82 31.68 1.56 51.16m60.78.78L41.27 31.68" style="fill:none;stroke:grey;stroke-miterlimit:10;stroke-width:2px"></path></svg> Email us</a></li>
+        </ul>
+        <h2 style="margin-top: 40px; font-weight: bolder;">Follow us</h2>
+        <div class="images">
+            <a href="https://www.instagram.com/scentsnstories/"><img src="/insta.png" alt=""></a>
+          <a href="https://web.facebook.com/scentsnstoriesintl?_rdc=1&_rdr">  <img src="/facebook.png" alt=""></a>
+          <a href="https://www.youtube.com/channel/UCSeHLZndE-63bREgPBoQIIQ"> <img src="/youtube.png" alt=""></a>
+            <a href="https://twitter.com/scentsnstories_" ><img src="/twitter.png" alt=""></a>
+        </div>
+        
+        <div class="images2">
+            <a href="https://www.snapchat.com/add/snstories">  <img src="/likee.jpg" alt=""></a>
+                <a href="https://www.tiktok.com/@scentsnstories"><img src="/tiktok.png" alt=""></a>
+                    <a href="https://www.linkedin.com/company/scentsnstories/"><img src="/linkedin.jpg" alt=""></a>
+        </div>
+</div>
+        <div class="div div5">
+            <h2>We Accept</h2>
+       <ul>
+        <li> <svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" class="svg svg1" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"></path></svg></li>
+        <li><svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master" class="svg svg2"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#F79E1B" cx="23" cy="12" r="7"></circle><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg></li>
+       
+       </ul>
+        </div>
+       
+        </div>
+    <div class="end">
+
+    
+       
+        <p ><span class="material-symbols-outlined">
+            copyright
+            </span> 2024 Scents N Stories Pvt Ltd. support@scentsnstories.pk</p>
+  
+    </div>
+</div> 
+
+
+</footer>
+
+<script src="/header and footer.js"></script>
+</body>
+</html>
